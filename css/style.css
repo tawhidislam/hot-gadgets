@@ -1,0 +1,112 @@
+.bg-light {
+    background-color: #f8f9fa00!important;
+}
+
+  
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+h3 {
+    font-weight: bold;
+}
+
+.custom-nav{
+    margin-top:20px;
+}
+
+.bg-indicator .active{
+    background-color: rgb(255, 115, 0);
+}
+.custom-banner {
+    background-image: url(images/bg/bg-dotted.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 10%;
+}
+
+.carousel-item {
+    background-image: url(images/bg/bg-best.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+    padding-bottom: 50px;
+}
+.custom-carousel{
+    padding-top: 20px 10px;
+}
+button a:hover{
+    background-color: black;
+}
+
+.custom-pdctcard{
+    margin-top: 100px;
+}
+.custom-seeall{
+    text-decoration: none;
+    color:rgb(255, 115, 0);
+    font-weight: bold;
+}
+.custom-seeall:hover{
+    text-decoration: none;
+    
+    font-weight: bold;
+    color:rgb(255, 115, 0);
+}
+.custom-pdctrow div{
+    border:none;
+}
+.custom-pdctrow{
+    padding:40px 20px;
+}
+.custom-pdctitems{
+    margin-bottom: 100px;
+}
+.card-footer .buy-button{
+   
+    padding:10px 20px;
+    background-color: black;
+}
+.card-footer{
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+    border-top:none;
+}
+.card {
+    border: none;
+    -webkit-box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.12); 
+    box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.12);
+    border-radius: 5px;
+}
+.custom-ctgcontent::after{
+        position: absolute;
+        content: " ";
+        height: 7px;
+        width: 70px;
+        background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0 0 no-repeat padding-box;
+        border-radius: 10px;
+}
+.img-responsive{
+    width: 100%;
+}
+
+
+
+.underline{
+    height: 10px;
+    width: 10%;
+    border: none;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #FF9C35 0%, #FFD019 100%);
+}
+footer{
+    text-align: center;
+    margin-top:100px;
+    padding-bottom: 10px;
+}
+
